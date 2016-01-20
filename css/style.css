@@ -1,0 +1,265 @@
+/****************************************/
+/*************PAGE SETUP*****************/
+/****************************************/
+body {
+    margin: 0;
+    font-family: Arial, Helmet, Freesans, sans-serif;
+    box-sizing: border-box;
+}
+
+/**************REUSABLE******************/
+
+.fixedWidth {
+    width: 960px;
+    margin: 0 auto;
+   /* overflow: hidden; /*Gives the fixedWidth div a height WARNING: may cause adverse effects*/
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.clear {
+    clear: both;
+}
+
+h1, h2, h3, h4 {
+    margin: 5px 0;
+    padding: 0;
+    color: #4F4F4F;
+}
+
+/****************************************/
+/****************HEADER******************/
+/****************************************/
+
+#topBar {
+    width: 100%;
+    background-color: #7B0000;
+    height: 40px;
+}
+
+/**************LOGO******************/
+
+#logoDiv {
+    float: left;
+    border-right: 1px solid #871919;
+    padding-bottom: 4px;
+}
+
+#bbcLogo {
+    height: 25px;
+    padding-top: 7px;
+    margin-right: 10px;
+}
+
+/**************NAVIGATION******************/
+
+#navMenuDiv {
+    float:left;
+    margin-left: 120px;
+    height: 40px;
+}
+
+#navMenu {
+    margin: 0;
+    padding: 0;
+}
+
+#navMenu li {
+    float: left;
+    list-style: none;
+    color: white;
+    font-size: .85em;
+    font-weight: bold;
+    border-right: 1px solid #871919;
+    padding: 12px 20px 15px 20px;
+    text-align: center;
+}
+
+#navMenu li:first-child {
+    border-left: 1px solid #871919;
+}
+
+/**************SEARCH BAR******************/
+
+#search {
+    float: left;
+    margin-left: 20px;
+    margin-top: 8px;
+    width: 150px;
+    height: 17px;
+    background-image: url(../images/searchIcon.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 13%;
+}
+
+/**************NEWS BAR******************/
+
+#newsBar {
+    width: 100%;
+    background-color: #990000;
+    height: 80px;
+}
+
+#contentHeader {
+    color: white;
+    text-transform: uppercase;
+    font-size: 3em;
+    font-weight: 100;
+    margin: 0;
+    padding-top: 5px;
+    display: inline-block;
+    float: left;
+}
+
+#sectionHeader {
+    display: inline-block;
+    float: left;
+    color: white;
+    font-size: 2em;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: 100;
+}
+
+
+#rssIcon {
+    float: right;
+    width: 5%;
+}
+
+#rssText {
+    float: right;
+    font-size: .8em;
+    font-weight: bold;
+    color: white;
+    padding-right: 5px;
+}
+
+
+
+#rssDiv {
+    float: right;
+    margin-top: 35px;
+}
+
+#sectionNav {
+    margin: 0;
+    background-color: #3E0C0D;
+    height: 20px;
+    width: 100%;
+}
+
+#sectionNav li {
+    color: #FFFFFF;
+    float: left;
+    position: relative;
+    list-style: none;
+    padding: 0 6px 0 6px;
+    margin-top: 4px;
+    left: -40px;
+    font-weight: bold;
+    font-size: .7em;
+    border-right: 1px solid #5B2D2F;
+}
+
+#sectionNavDiv {
+    float: left;
+    margin: 0 auto;
+}
+
+#advert {
+    margin: 0 auto;
+    width: 80%;
+    padding: 20px 0 15px 0;
+}
+
+#advert img {
+    width: 100%;
+}
+
+#articleContainer {
+    float: left;
+    width: 64%;
+}
+
+
+#headline {
+    font-size: 1.8em;
+    margin-bottom: 5px;
+}
+
+.article {
+    border-bottom: 1px solid #DDDDDD;
+    padding-bottom: 15px;
+}
+
+.article img {
+    width: 50%;
+    float: left;
+    margin-right: 15px;
+}
+
+.leadText {
+    color: #989898;
+    font-size: .8em;
+    margin: 0;
+    padding-right: 15px;
+    word-spacing: .1em;
+    line-height: 1.3em;
+}
+
+/**************Trending Bars******************/
+
+#trending {
+    float: right;
+    width: 35%;
+}
+
+#trending h3 {
+    padding-top: 10px;
+    padding-left: 5px;
+    font-size: 1.4em;
+}
+
+#watchlisten {
+    background-color: #ededed;
+    margin: 0;
+}
+
+#scrollingvideo img {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.liveindicator {
+    display: inline-block;
+    background-color: red;
+    margin-bottom: 5px;
+    margin: 5px 5px;
+    padding: 0 5px;
+    height: 15px;
+    font-size: .8em;
+    vertical-align: middle;
+    color: white;
+}
+
+#features {
+    background-color: #ededed;
+}
+
+.featurecontainer {
+    width: 95%;
+    margin: 10px auto;
+}
+
+.featurecontainer img {
+    float: left;
+    width: 40%;
+    padding-bottom: 10px;
+    margin-right: 5px;
+}
